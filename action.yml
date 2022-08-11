@@ -1,7 +1,7 @@
 name: 'Hello World'
 description: 'Greet someone'
 inputs:
-  who-to-greet:  Ekemini
+  who-to-greet:  'Ekemini'
     description: 'Who to greet'
     required: true
     default: 'World'
@@ -21,4 +21,3 @@ runs:
       shell: bash          
     - run: goodbye.sh
       shell: bash
-
